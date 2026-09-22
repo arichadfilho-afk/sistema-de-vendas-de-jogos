@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS generos (
+    id_genero SERIAL PRIMARY KEY,
+    nome VARCHAR(60) NOT NULL UNIQUE,
+    descricao VARCHAR(255)
+);
